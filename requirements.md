@@ -1,0 +1,20 @@
+1. Phase-1 Features
+Assumptions:
+- Single User
+- Stateless Query/Response
+- Synchronous Response
+- No user feedback after submitting query
+(a) Given a list of user-defined URLs and a topic, summarize its contents in less than 5 sentences
+(b) Organize summary by URL into a list that can be replayed on-demand based on user's query
+(b).1 Upon user query, convert summary text-to-speech and play it as an audio stream (similar to a podcast)
+(c) Provide a client interface to submit queries to this service
+
+2. Phase-2 Features
+(a) How to support multiple users ?
+(a) How to make response stateful per user connection ?
+(b) How to user feedback to jump/skip/pause playing summaries (not so interesting summaries) ?
+(c) How to customize summarization per user feedback - give each summary a rating, e.g ?
+
+3. Delivery Features
+(a) How to deliver the service on the mobile platform and desktop platform ?
+(b) How to provide login/auth capabilities per user ?
