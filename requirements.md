@@ -5,7 +5,7 @@
 - No user feedback after submitting query
 - Given a list of user-defined URLs and a topic, summarize its contents in less than 5 sentences
 - Organize summary by URL into a list that can be replayed on-demand based on user's query
--- Upon user query, convert summary text-to-speech and play it as an audio stream (similar to a podcast)
+-- Upon user query, convert summary text-to-speech and play it as an audio stream feed 
 - Provide a client interface to submit queries to this service
 
 2. Phase-2 Features
